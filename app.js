@@ -15,7 +15,6 @@ function calculateResult(e){
     const calculatePayment = parseFloat(year.value) * 12;
     console.log('3 ',calculatePayment);
     
-    
     const x = Math.pow(1 + calculateIntrest, calculatePayment);
     console.log('4 ',x);
     const monthly = (principle * x * calculateIntrest)/(x-1);
